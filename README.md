@@ -96,3 +96,28 @@ _No direct endpoints; triggered automatically:_
  
 # leave-management-system
 Leave Management System with role-based access, mail notifications, and reports
+
+# Leave Management System – Laravel
+
+## Features
+- Role-based login (Admin & Employee)
+- Leave request submission and status tracking
+- Admin approval/rejection
+- Email notifications (event-based)
+- Leave balance tracking
+- PDF and Excel export
+
+## Setup Instructions
+
+1. Clone the repo
+
+git clone https://github.com/TharunnivashB/leave-management-system
+cd your-repo
+cp .env.example .env
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+npm install && npm run dev
+php artisan serve
+
