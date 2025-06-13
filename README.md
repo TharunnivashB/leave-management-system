@@ -94,3 +94,5 @@ _No direct endpoints; triggered automatically:_
 
 > All routes are protected by middleware (`auth`, `role:admin|employee`).
  
+# leave-management-system
+Leave Management System with role-based access, mail notifications, and reports
